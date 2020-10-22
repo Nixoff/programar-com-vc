@@ -8,7 +8,7 @@
     border-radius: 20px;
 }
 
-h2 {
+.banner__h2 {
     position: relative;
     top: -206pt;
     left: 35px;
@@ -119,3 +119,4 @@ a:link {
  a{
      text-decoration: none;
  }
+

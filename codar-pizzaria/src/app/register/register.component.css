@@ -152,6 +152,7 @@ display:flex;
     .container{
         display: flex;
         justify-content: space-evenly;
+        height: 90vh;
     }
     .esquerda{
         display: block;
@@ -210,6 +211,7 @@ display:flex;
 @media(min-width:1030px){
     .container{
         justify-content: space-around;
+        height: 90vh;
     }
     .banner__button{
         display: block;

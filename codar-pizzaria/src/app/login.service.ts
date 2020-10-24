@@ -43,9 +43,8 @@ export class LoginService {
   }
 
   username(){
-    this.json = JSON.stringify(localStorage.getItem('userLogado'));
-    console.log(this.json)
-        
+    this.json = localStorage.getItem('userLogado');
+    let response = JSON.parse(this.json);
+    console.log('nome do usuario: ' + response.user.name)  
   }
-
 } 

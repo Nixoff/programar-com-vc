@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AppRoutingModule }  from '../app-routing.module'
 
+
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -8,7 +9,7 @@ import { AppRoutingModule }  from '../app-routing.module'
 })
 export class RegisterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _AppRoutingModule: AppRoutingModule) { }
 
   ngOnInit(): void {
   }

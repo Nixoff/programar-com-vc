@@ -151,3 +151,11 @@
     margin-top: -57px;
     margin-left: 242px;
 }
+
+.card__link{
+    text-decoration: none;
+}
+
+.card__link:hover {
+    border: 3px solid ;
+}

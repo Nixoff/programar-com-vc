@@ -14,6 +14,9 @@ export class LoginComponent implements OnInit {
   constructor(private _LoginService: LoginService, private fb: FormBuilder) { }
 
   ngOnInit(): void {
+
+    this.submit = false;
+    
     this.loginForm = this.fb.group({
       'email': ['', ],
       'password': ['', ],

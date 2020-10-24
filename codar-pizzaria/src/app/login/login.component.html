@@ -45,7 +45,7 @@
             </div>
             <hr class="divisao">
             <div class="formula"></div>
-            <form >
+            <form (ngSubmit)="login()" [formGroup]="loginForm">
                 
                 <div class="input-block">
                     <input type="email" placeholder="E-mail" formControlName="email" name="email"  required>
@@ -57,7 +57,7 @@
                     </div>
                 </div> 
                 
-                <button class="acesso">
+                <button type="submit" class="acesso">
                     Acessar
                 </button>
             </form>

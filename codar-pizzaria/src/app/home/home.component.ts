@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { LoginService} from '../login.service' 
+import { LoginService} from '../login.service'
+import { User } from '../models/user'
+
 
 @Component({
   selector: 'app-home',
@@ -8,11 +10,11 @@ import { LoginService} from '../login.service'
 })
 export class HomeComponent implements OnInit {
 
-  constructor( private _LoginService: LoginService ) { }
+  constructor( private services: LoginService) { }
 
   ngOnInit(): void {
-
-    this._LoginService.username();
+    this.services.username();
+   
   }
 
 }

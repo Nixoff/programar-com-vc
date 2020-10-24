@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LoginService} from '../login.service' 
+
 
 @Component({
   selector: 'app-popular',
@@ -8,7 +8,7 @@ import { LoginService} from '../login.service'
 })
 export class PopularComponent implements OnInit {
 
-  constructor( private _LoginService: LoginService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }

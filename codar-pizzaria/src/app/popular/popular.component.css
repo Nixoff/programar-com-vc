@@ -156,6 +156,10 @@
     text-decoration: none;
 }
 
-.card__link:hover {
-    border: 3px solid ;
+.popular__hr--footer {
+    width: 1030px;
+    position: relative;
+    left: -23px;
+    background-color: #2E4765;
+    opacity: 20%;
 }

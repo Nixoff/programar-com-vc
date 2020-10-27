@@ -1,3 +1,6 @@
+ a {
+     text-decoration: none;
+ }
  /* CARTE */
 .carte {
     margin-top: -50px;
@@ -93,6 +96,11 @@ position: relative;
 
 .button__br--span {
     margin-left: 15px;
+    color: #2E4765;
+}
+
+.button__br--span:hover {
+    color: #5a87bd;
 }
 
 .category__button--it {
@@ -105,4 +113,9 @@ position: relative;
 
 .button__it--span {
     margin-left: 15px;
+    color: #2E4765;
+}
+
+.button__it--span:hover {
+    color: #5a87bd;
 }

@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { CarteComponent } from './carte/carte.component';
 import { PopularComponent } from './popular/popular.component';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { PopularComponent } from './popular/popular.component';
     RegisterComponent,
     HomeComponent,
     CarteComponent,
-    PopularComponent
+    PopularComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

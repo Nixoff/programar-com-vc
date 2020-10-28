@@ -1,0 +1,20 @@
+.banner {
+    margin-top: 26.04px;
+    opacity: 0.96;
+}
+
+.banner__img {
+    border-radius: 12px;
+}
+
+.banner__h2 {
+    z-index: 1 !important;
+    margin-top: -270px;
+    opacity: 100%;
+    color: #B30733;
+    margin-left: 667px;
+}
+
+small.banner__h2--small {
+    margin-top: 15px;
+}

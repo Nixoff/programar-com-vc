@@ -13,8 +13,66 @@
     opacity: 100%;
     color: #B30733;
     margin-left: 667px;
+    cursor: default;
 }
 
 small.banner__h2--small {
     margin-top: 15px;
+    margin-left: -28px;
+    cursor: default;
+}
+
+.banner__h3 {
+    text-align: left;
+    font: normal normal normal 20px/48px Josefin Sans;
+    letter-spacing: 0px;
+    color: #FF4A40;
+    margin-left: 700px;
+    cursor: default;
+    margin-top: -5.19px;
+}
+
+.banner__h3--time {
+    color: #8A98BA;
+}
+
+.banner__h3--time:hover {
+    color: #6a9aed;
+}
+
+.banner__button--category#italian {
+    background: #2E47650D 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 0.87;
+    margin-left: 757px;
+    text-decoration: none;
+    color: rgba(46,71,101,0.8);
+    padding: 8px 16px;
+    position: relative;
+    top: 30px;
+}
+
+
+.banner__button--category#smallPz {
+    background: #2E47650D 0% 0% no-repeat padding-box;
+    color: rgba(46,71,101,0.8);
+    border-radius: 16px;
+    opacity: 0.87;
+    text-decoration: none;
+    padding: 8px 23px;
+    position: relative;
+    margin-left: 20.57px;
+    top: 30px;
+}
+
+.banner__button--category#italian:hover{
+    background-color: #c9c9c9;
+    box-shadow: 0px 15px 20px rgba(124, 124, 124, 0.2);
+    color: #fff;
+}
+
+.banner__button--category#smallPz:hover{
+    background-color: #c9c9c9;
+    box-shadow: 0px 15px 20px rgba(124, 124, 124, 0.2);
+    color: #fff;
 }

@@ -4,13 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AuthService} from './auth/auth.service'
+import { DetailsComponent } from './details/details.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', canActivate: [AuthService], pathMatch: 'full'},
   { path: 'home', component: HomeComponent, canActivate: [AuthService]},
   { path: 'login', component: LoginComponent},
-  { path: 'cadastro', component: RegisterComponent},
+  { path: 'register', component: RegisterComponent},
+  { path: 'details', component: DetailsComponent },
 ];
 
 @NgModule({

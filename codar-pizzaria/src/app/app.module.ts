@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { CarteComponent } from './carte/carte.component';
 import { PopularComponent } from './popular/popular.component';
 import { DetailsComponent } from './details/details.component';
+import { FoodMenuComponent } from './food-menu/food-menu.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { DetailsComponent } from './details/details.component';
     HomeComponent,
     CarteComponent,
     PopularComponent,
-    DetailsComponent
+    DetailsComponent,
+    FoodMenuComponent
   ],
   imports: [
     BrowserModule,

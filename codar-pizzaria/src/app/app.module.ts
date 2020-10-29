@@ -13,6 +13,7 @@ import { CarteComponent } from './carte/carte.component';
 import { PopularComponent } from './popular/popular.component';
 import { DetailsComponent } from './details/details.component';
 import { FoodMenuComponent } from './food-menu/food-menu.component';
+import { RelatedComponent } from './related/related.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FoodMenuComponent } from './food-menu/food-menu.component';
     CarteComponent,
     PopularComponent,
     DetailsComponent,
-    FoodMenuComponent
+    FoodMenuComponent,
+    RelatedComponent
   ],
   imports: [
     BrowserModule,

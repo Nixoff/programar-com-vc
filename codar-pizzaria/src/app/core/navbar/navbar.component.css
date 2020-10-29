@@ -89,6 +89,6 @@ h1, h2, h3, h4, h5, a {
 .navbar-nav li a:hover {
     margin-bottom: -31px;
     height: 71px;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #EF4C00;
     transform: translateY(-1px);
 }

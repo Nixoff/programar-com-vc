@@ -1,0 +1,59 @@
+.container__tittle {
+    position: absolute;
+    width: fit-content;
+    margin-top: 138px;
+    text-align: left;
+    font: normal normal bold 23px/31px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #B30733;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.row {
+    margin-left: -37px;
+    margin-top: 165px;
+}
+.card {
+    width: 327px;
+    /* height: 154px; */
+    /* width: 18rem; */
+    margin-left: 36px;
+    margin-top: 18px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #2E476533;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.card-text {
+    text-align: left;
+    font: normal normal normal 17px/22px Proxima Nova;
+    letter-spacing: 0px;
+    color: #B30733;
+    opacity: 1;
+}
+
+.card-img, .card-img-top {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+}
+
+.card-body {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 20px 20px;
+    opacity: 1;
+}
+
+.card-img-top {
+    object-fit: none;
+    height: 145px;
+}
+
+.card.coll:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card__menu--link {
+    text-decoration: none;
+}

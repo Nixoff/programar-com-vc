@@ -160,10 +160,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between; 
-        width: 50%;
+        width: 66%;
         background:transparent url('/assets/img/sahand-hoseini-BMVAYjPf6mU-unsplash@2x.png') 0% 0% no-repeat padding-box;
         background-size: 100% 100%;
         text-align: center;
+        
         
         
     }

@@ -34,6 +34,9 @@ h1, h2, h3, h4, h5, a {
 .nav__link--image {
     width: 45px;
     border-radius: 50%;
+    background-image: url("../../../assets/images/profile/Image 39.png");
+    background-size: 100% 100%;
+
 }
 
 .nav__link--li {

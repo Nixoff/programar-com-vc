@@ -131,21 +131,22 @@
     text-align: right;
     padding-right: 2px;
 }
-.criar{
+.card-body {
     text-align: center;
     color: bold  black;
     margin-top: 1.6rem;
     
     
 }
-.criar a{
+.card-body a{
     font-weight: bold;
     text-decoration: none;
     color: black;
 }
-.criar footer {
+.text-muted{
     margin-top: 15vh;
     font-weight: bold;
+    
 }
 
 @media (min-width:680px){

@@ -41,6 +41,11 @@ export class LoginService {
     }
     return false;
   }
+  logout(){
+    localStorage.removeItem('userLogado')
+    this.router.navigateByUrl('/login');
+    console.log('Saindo...')
+  }
 
   username(){
     this.json = localStorage.getItem('userLogado');

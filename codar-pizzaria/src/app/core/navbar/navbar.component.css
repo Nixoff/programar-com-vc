@@ -34,8 +34,8 @@ h1, h2, h3, h4, h5, a {
 .nav__link--image {
     width: 45px;
     border-radius: 50%;
-    background-image: url("../../../assets/images/profile/Image 39.png");
     background-size: 100% 100%;
+    cursor: pointer;
 
 }
 
@@ -89,9 +89,12 @@ h1, h2, h3, h4, h5, a {
 
 }
 
-.navbar-nav li a:hover {
+.navbar-nav.nav-item:hover, .nav-link:hover {
     margin-bottom: -31px;
     height: 71px;
     border-bottom: 3px solid #EF4C00;
     transform: translateY(-1px);
+}
+.btn {
+    text-decoration:none ;
 }

@@ -1,6 +1,6 @@
 <div class="vertical-center">
     <div class="container">
-        <div class="esquerda">
+        <div class="col-md-6 ads esquerda">
             <div class="topo">  
                 <h1>CODAR Pizzaria</h1>
                 <h2>PEGUE UMA FATIA</h2>
@@ -38,41 +38,40 @@
             </footer>
         </div>
         
-        <div class="direita">
+        <div class="col-md-6 ads direita">
             <div class="titulo">
                 <h1>Cadastrar-se</h1>
                 <hr class="risco">
             </div>
             <hr class="divisao">
-            <div class="formula"></div>
             <form (ngSubmit)="login()" [formGroup]="loginForm">
-                
-                <div class="input-block">
-                    <input type="text" formControlName="name" placeholder="Nome completo" name="name"  required>
-                </div>    
-                <div class="input-block">
-                    <input type="email" placeholder="E-mail" formControlName="email" name="email"  required>
-                </div>    
-                <div class="input-block">
-                    <input type="password" placeholder="Senha" formControlName="password" name="password" required> 
-                </div>  
-                <div class="input-block">
-                    <input type="password" placeholder="Confirmar Senha" formControlName="confirma_password" name="confirma_password" required> 
-                </div> 
-                
-                <button class="acesso">
-                    Registrar
-                </button>
+                <div class="forms">
+                    <div class="input-block">
+                        <input type="text" formControlName="name" placeholder="Nome completo" name="name"  required>
+                    </div>    
+                    <div class="input-block">
+                        <input type="email" placeholder="E-mail" formControlName="email" name="email"  required>
+                    </div>    
+                    <div class="input-block">
+                        <input type="password" placeholder="Senha" formControlName="password" name="password" required> 
+                    </div>  
+                    <div class="input-block">
+                        <input type="password" placeholder="Confirmar Senha" formControlName="confirma_password" name="confirma_password" required> 
+                    </div> 
+                    
+                    <button class="acesso">
+                        Registrar
+                    </button>
+                </div>
             </form>
             <div class="criar">
+                <div class="link">
                 <a routerLink="/login">
                     Já possuí cadastro ?</a>
-                    
-                    <footer>
-                        <div class="rodape">
+                </div>
+                        <div class="copy-text">
                             Codar Pizzaria 2020
                         </div>
-                    </footer>
                 </div>
             </div>
         </div>

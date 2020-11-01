@@ -1,6 +1,6 @@
 <div class="vertical-center">
     <div class="container">
-        <div class="esquerda">
+        <div class="col-md-6 ads esquerda">
             <div class="topo">  
                 <h1>CODAR Pizzaria</h1>
               <h2>PEGUE UMA FATIA</h2>
@@ -36,17 +36,17 @@
                     </button>
                 </div>
             </footer>
+          
         </div>
         
-        <div class="direita">
+        <div class="col-md-6 direita">
             <div class="titulo">
                 <h1>Efetuar login</h1>
                 <hr class="risco">
             </div>
             <hr class="divisao">
-            <div class="formula"></div>
             <form (ngSubmit)="login()" [formGroup]="loginForm">
-                
+                <div class="forms">
                 <div class="input-block">
                     <input type="email" placeholder="E-mail" formControlName="email" name="email"  required>
                 </div>    
@@ -60,17 +60,19 @@
                 <button type="submit" class="acesso">
                     Acessar
                 </button>
+            </div>
             </form>
+            <div class="footer">
             <div class="criar">
                 <a routerLink="/register">
-                    Criar uma conta</a>
-                    
-                    <footer>
-                        <div class="rodape">
+                    Criar uma conta
+                </a>
+            </div>
+                   <div class="copy-text">
                             Codar Pizzaria 2020
-                        </div>
-                    </footer>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>

@@ -23,12 +23,19 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
         </li>
-        <li>
-          <img class="nav__link--image" src="../../../assets/images/profile/Image 39.png" alt="" srcset="">
+        <li class="foto">
+          <div class="dropdown">
+            <img data-toggle="dropdown" src="../../../assets/images/profile/Image 39.png" class="nav__link--image" alt="">
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Meu Perfil</a>
+            <a class="dropdown-item" href="#">Favoritos</a>
+            <a class="dropdown-item" (click)="logout()">Logout</a>
+          </div>
+          </div>
         </li>
         <li class="nav__link--li"></li>
         <button class="nav__link--cart">
-          <a href="/cadastro">
+          <a href="/register">
             <img src="../../../assets/images/shopping-basket-white.svg" alt="" srcset=""> (5) items
           </a>
         </button>

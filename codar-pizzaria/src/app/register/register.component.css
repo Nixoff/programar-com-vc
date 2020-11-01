@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 * {
     padding: 0;
     box-sizing: border-box;
@@ -22,13 +23,16 @@
 
 }
 .titulo{
+    padding-top:20px;
     text-align: center;
-    font: bold 20px 'Montserrat', sans-serif;
     color: #B30733;
     text-transform: uppercase;
     opacity: 1;
 }
 .titulo h1 {
+    font-weight: bold;
+    font:'Montserrat', sans-serif;
+    font-size: 20px;
     margin-bottom: 11px;
 }
 .risco{
@@ -40,6 +44,7 @@
     
 }
 .divisao{
+    width: 90%;
     background-color: #2E4765;
     height: 3px;
     border: 1px solid #2E4765;
@@ -128,11 +133,8 @@ display:flex;
 .acesso:hover{
     background: #be3e02 0% 0% no-repeat padding-box;
 }
-.esquecer{
-    text-align: right;
-    padding-right: 2px;
-}
 .criar{
+    margin-top: 1.2rem;
     text-align: center;
     color: bold  black;
 
@@ -143,11 +145,17 @@ display:flex;
     text-decoration: none;
     color: black;
 }
-.rodape {
-    margin-top: 1rem;
+.copy-text {
+    font-family: "Montserrat", sans-serif;
+    position:absolute;
+    width:100%;
+    color: black;
+    bottom:0px;
+    font-size:15px;
+    text-align: right;
     font-weight: bold;
-  
 }
+
 
 @media (min-width:680px){
     .container{
@@ -206,6 +214,9 @@ display:flex;
         margin-bottom: 2px;
         
         }
+        .forms{
+            padding-left: 10px;
+        }
 
 }
 
@@ -220,10 +231,58 @@ display:flex;
 
     }
     .criar{
+    width:100%;
+    height: 25%;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
     }
     .rodape{
         text-align: right;
        
-}}
+}
+
+
+}
+@media(min-height: 950px){
+    .criar{
+        width:100%;
+        height: 200px;
+        margin-bottom: 0;
+    }
+}
+@media(min-height: 1150px){
+    .container{
+        height: 1080px;
+    }
+    .criar{
+        width:100%;
+        height: 480px;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        }
+        .rodape{
+            text-align: right;
+           
+    }
+
+}
+@media(min-height: 1410px){
+    .criar{
+        width:100%;
+        height: 450px;
+        margin-bottom: 0;
+    }
+}
+@media(min-height: 1800px){
+    .criar{
+        width:100%;
+        height: 420px;
+        margin-bottom: 0;
+    }
+}

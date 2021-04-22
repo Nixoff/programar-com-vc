@@ -8,8 +8,8 @@ import { DetailsComponent } from './details/details.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', canActivate: [AuthService], pathMatch: 'full'},
-  { path: 'home', component: HomeComponent, canActivate: [AuthService]},
+  { path: '', redirectTo: 'home', pathMatch: 'full'},
+  { path: 'home', component: HomeComponent},
   { path: 'login', component: LoginComponent},
   { path: 'register', component: RegisterComponent},
   { path: 'details', component: DetailsComponent },

@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, a {
 .navbar-brand {
     color: #EF4C00;
     position: relative;
-    top: -19px;
 }
 
 .navbar-brand:hover {
@@ -44,7 +43,7 @@ h1, h2, h3, h4, h5, a {
     padding-right: 15px;
     height: 7.2em;
     position: relative;
-    top: 29px;
+    top: 9px;
     margin-top: -68px;
 }
 
@@ -76,7 +75,6 @@ h1, h2, h3, h4, h5, a {
 
 .navbar {
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    margin-top: 38px;
 }
 
 .navbar-nav {
@@ -85,13 +83,11 @@ h1, h2, h3, h4, h5, a {
 
 .navbar-expand-lg .navbar-collapse {
     position: relative;
-    top: -20px;
-
 }
 
 .navbar-nav.nav-item:hover, .nav-link:hover {
-    margin-bottom: -31px;
-    height: 71px;
+    /* margin-bottom: -31px; */
+    height: 40px;
     border-bottom: 3px solid #EF4C00;
     transform: translateY(-1px);
 }
